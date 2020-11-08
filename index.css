@@ -1,10 +1,79 @@
-h1 {
-  color: rgb(255, 255, 255);
-  margin-top: 20%;
-  margin-bottom: 20%;
-  text-align: center;
-  font-family: monospace;
+* {
+  box-sizing: border-box;
 }
 body {
-  background-color: rgb(126, 143, 141);
+  margin: 0vw;
+  background-color: #2d3436;
+  transition: all 0.6s;
+}
+
+/*header styling*/
+header {
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+  font-size: 1.1em;
+}
+
+#H-1,
+#H-2 {
+  display: flex;
+}
+#H-1 {
+  margin-left: 1vw;
+}
+#H-2 {
+  justify-content: space-around;
+  margin-right: 8vw;
+}
+.i-1 {
+  transition: all 0.6s;
+  margin-right: 2em;
+  align-self: center;
+  padding: 1em;
+  cursor: pointer;
+}
+.i-1:hover {
+  background-color: #ffffff0c;
+}
+.i-2 {
+  transition: all 0.6s;
+  cursor: pointer;
+  padding: 1em;
+  align-self: center;
+}
+.i-2:hover {
+  outline: 1px solid white;
+  background-color: #ffffff0c;
+}
+#standar {
+  margin-right: 2em;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+}
+#Historique {
+  cursor: pointer;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-bottom: 5px;
+  border-bottom: 2px solid green;
+  transition: all 0.6s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-self: center;
+}
+#Historique:hover {
+  color: rgb(124, 124, 124);
+}
+#memoir {
+  transition: all 0.6s;
+  padding-right: 1em;
+  padding-left: 1em;
+  cursor: pointer;
+  margin-bottom: 5px;
+  align-self: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#memoir:hover {
+  color: rgb(124, 124, 124);
 }
