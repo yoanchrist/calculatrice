@@ -77,3 +77,155 @@ header {
 #memoir:hover {
   color: rgb(124, 124, 124);
 }
+/*---------------------------------------------------------------------------------------*/
+/*main part styling*/
+main {
+  display: grid;
+  grid-template-columns: 9.1fr 2.9fr;
+  grid-gap: 1em;
+}
+.text-area {
+  margin: 0;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  grid-area: 1 / 1 / span 2 / span 4;
+  text-align: end;
+  font-size: 3em;
+}
+.MC {
+}
+.MR {
+}
+.M-plus {
+}
+.M-moin {
+}
+.MS {
+}
+.pourcent {
+}
+.CE {
+}
+.C {
+}
+.icon {
+}
+.un-x {
+}
+.x² {
+}
+.un-de {
+}
+.division {
+  font-size: 2em;
+}
+.sept {
+}
+.huit {
+}
+.neuf {
+}
+.X {
+}
+.quatre {
+}
+.cinq {
+}
+.six {
+}
+.moin {
+}
+.un {
+}
+.de {
+}
+.trois {
+}
+.plus {
+}
+.neg-nombre {
+}
+.zero {
+}
+.point {
+}
+.egal {
+  background-color: #385272;
+}
+.e {
+  background-color: rgba(0, 0, 0, 0.616);
+}
+.z {
+  background-color: rgba(0, 0, 0, 0.294);
+}
+
+.operation-M {
+  display: flex;
+  position: relative;
+  top: 12px;
+
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 0;
+}
+.vid {
+  grid-column: 2 / 5;
+}
+
+#M-left-side {
+  text-align: center;
+  color: white;
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+}
+
+.paver {
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2px;
+  grid-column: 1 / span 4;
+  font-size: 0.8em;
+}
+.a {
+  padding: 1.3em;
+  margin: 0;
+  font-size: 1.1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+#egal:hover {
+  background-color: #184e90;
+  outline: 1px solid #81b4f3;
+}
+.a:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+  outline: 0.1px solid rgba(255, 255, 255, 0.767);
+}
+.d {
+  transition: all 0.6s;
+  align-self: flex-end;
+  padding: 1.2em;
+  margin-left: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+}
+.d:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+  outline: 0.1px solid rgba(255, 255, 255, 0.767);
+}
+#M-right-side {
+  height: 45vw;
+  padding: 0.5em;
+  text-align: end;
+  position: sticky;
+  bottom: 0px;
+}
+/*main part done*/
