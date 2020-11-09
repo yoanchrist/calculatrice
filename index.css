@@ -85,69 +85,33 @@ main {
   grid-gap: 1em;
 }
 .text-area {
-  margin: 0;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  grid-area: 1 / 1 / span 2 / span 4;
+  grid-area: 1 / span 4;
   text-align: end;
+  border: 1px solid white;
+}
+#text-area {
   font-size: 3em;
 }
-.MC {
+#first-area {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  border: 1px solid white;
+  width: 40.6em;
 }
-.MR {
+
+#operation-area {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.404);
 }
-.M-plus {
-}
-.M-moin {
-}
-.MS {
-}
-.pourcent {
-}
-.CE {
-}
-.C {
-}
-.icon {
-}
-.un-x {
-}
-.x² {
-}
-.un-de {
-}
+
 .division {
   font-size: 2em;
 }
-.sept {
-}
-.huit {
-}
-.neuf {
-}
-.X {
-}
-.quatre {
-}
-.cinq {
-}
-.six {
-}
-.moin {
-}
-.un {
-}
-.de {
-}
-.trois {
-}
-.plus {
-}
-.neg-nombre {
-}
-.zero {
-}
-.point {
+
+.poi {
+  font-size: 3px;
 }
 .egal {
   background-color: #385272;
@@ -188,7 +152,7 @@ main {
   grid-template-columns: auto auto auto auto;
   grid-gap: 2px;
   grid-column: 1 / span 4;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .a {
   padding: 1.3em;
@@ -200,13 +164,24 @@ main {
   cursor: pointer;
   transition: all 0.6s;
 }
-#egal:hover {
-  background-color: #184e90;
-  outline: 1px solid #81b4f3;
+.v {
+  padding: 1.3em;
+  margin: 0;
+  font-size: 1.1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 0.6s;
 }
+
 .a:hover {
   background-color: rgba(255, 255, 255, 0.171);
   outline: 0.1px solid rgba(255, 255, 255, 0.767);
+}
+.v:hover {
+  background-color: #021429;
+  outline: 1px solid #81b4f3;
 }
 .d {
   transition: all 0.6s;
