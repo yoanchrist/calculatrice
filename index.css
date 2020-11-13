@@ -65,6 +65,9 @@ header {
 #Historique:hover {
   color: rgb(124, 124, 124);
 }
+#operation-area {
+  display: unset;
+}
 #memoir {
   transition: all 0.6s;
   padding-right: 1em;
@@ -87,10 +90,10 @@ main {
 .text-area {
   grid-area: 1 / span 4;
   text-align: end;
-  border: 1px solid white;
 }
 #text-area {
   font-size: 3em;
+  transition: all 0.6s;
 }
 #first-area {
   display: flex;
@@ -101,9 +104,11 @@ main {
 }
 
 #operation-area {
+  transition: all 0.6s;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.404);
+  opacity: 0%;
 }
 
 .division {
